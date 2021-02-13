@@ -1,15 +1,11 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 8em;
+    scroll-padding-top: 1em;
 }
 
 html, body {
     height: 100%;
     position: relative;
-}
-
-ul li { 
-    padding: 5px 0px; 
 }
 
 main {
@@ -21,13 +17,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-}
-
-h4 {
-    color: #6b705c;
-    text-decoration-line: underline;
-    text-decoration-color: #fcbf49;
-    font-size: 300% !important;
 }
 
 pre {
@@ -94,18 +83,6 @@ pre {
     align-items: center;
 }
 
-.hr-style {
-    border-width: 0;
-    height: 3px;
-    width: 85%; 
-    margin-right: auto; 
-    margin-left: auto; 
-    margin-top: 5em;
-    margin-bottom: 5em;
-    color: #cb997e;
-    background-color: #cb997e;
-}
-
 .custom-toggler.navbar-toggler { 
     border-color: #ddbea9; 
 } 
@@ -134,25 +111,20 @@ pre {
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.affiliations-cust-header {
-    font-size: 180% !important;
-    color: #c97946;
-    text-decoration-line: underline;
-    text-decoration-color: #6b705c;
+.section-content-container {
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
-.carousel-inner{
-    width:100%;
-    height: 45em !important;
+.section-header {
+    padding-bottom: 0.5em;
+    text-decoration: underline dotted #6b705c;
 }
 
-.carousel-item {
-    height: 43.4em !important;
-}
-
-.arrow-icons {
-    font-size: 3em;
-    color: #9d4edd;
+.class-pill {
+    background-color: #C09891;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 #home {
@@ -161,33 +133,18 @@ pre {
 
 #footer {
     height: 50px;
-    background-color: #eddcd2;
+    /* background-color: #eddcd2; */
+    background-color: #FFE8D6;
     text-align: center;
     padding-top: 10px;
     bottom: 0;
     width: 100%;
  }
 
- #page-container {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between
-}
-
 #main-name {
     color: black;
     text-decoration: none;
     font-size: 600% !important;
-}
-
-#full-aboutme {
-    height: 43.1em;
-    padding: 2em 5em 1em 5em;
-    font-size: 1.0em;
-    border-color:#cb997e;
-    border-width: 2em;
-    background-color: #ddbea9;
 }
 
 @media (max-width: 768px) {
