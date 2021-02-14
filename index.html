@@ -67,7 +67,7 @@ EMAIL: crystml3@uci.edu
         <a target="_blank" href="https://github.com/crystalleesf"><span class="fab fa-3x fa-fw fa-github social-icons"></span></a>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #A26769; margin: 0; padding: 0;">
+    <div class="jumbotron jumbotron-fluid d-none d-md-block" style="background-color: #A26769; margin: 0; padding: 0;">
       <div class="container">
         <div class="row justify-content-center" style="padding-top: 2em; padding-bottom: 1em;">
           <div id="terminal" class="terminal" style="display: block;">
@@ -100,7 +100,7 @@ EMAIL: crystml3@uci.edu
     => Backend Developer Intern at IBM
   
   > Crystal.technologies
-    => [Python, HTML, CSS, JavaScript, AngularJS, SQL, C++, Git, Docker]
+    => [Python, HTML, CSS, JavaScript, Angular, MySQL, C++, C, Git, Postgres, MongoDB]
   
   > Crystal.technical_interests
     => [Fullstack Development, Backend Development, Cybersecurity, Aritifical Intelligence] 
@@ -119,7 +119,7 @@ EMAIL: crystml3@uci.edu
           <div class="col-md-5 text-center text-md-left">
             <img src="img/profile.png" alt="Crystal Lee's Headshot" class="rounded" style="width:80%;">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7" id="aboutme-text">
             <p >
               Hello! I'm Crystal, a third year Computer Science major and Informatics minor at UC Irvine. 
               Currently, I am also a Backend Developer Intern at IBM. I enjoy creating fullstack applications and
@@ -163,36 +163,57 @@ EMAIL: crystml3@uci.edu
                   <br>
                   <strong>Relevant Coursework:</strong>
                 </p>
+                <div class="d-none d-md-block">
+                  <span class="badge rounded-pill class-pill">Data Structures Implementation and Analysis</span>
+                  <span class="badge rounded-pill class-pill">Design and Analysis of Algorithms</span>
+                  <span class="badge rounded-pill class-pill">Intro to Artificial Intelligence</span>
+                  <span class="badge rounded-pill class-pill">Machine Learning and Data Mining</span>
+                  <span class="badge rounded-pill class-pill">Computational Photography and Vision</span>
+                  <span class="badge rounded-pill class-pill">User Interaction Software</span>
+                  <span class="badge rounded-pill class-pill">Intro to Data Management</span>
+                  <span class="badge rounded-pill class-pill">Information Retrieval</span>
+                  <span class="badge rounded-pill class-pill">Intro to Computer Organization</span>
+                  <span class="badge rounded-pill class-pill">Principles of System Design</span>
+                  <span class="badge rounded-pill class-pill">Formal Languages and Automata</span>
+                  <span class="badge rounded-pill class-pill">Human Computer Interaction</span>
+                  <span class="badge rounded-pill class-pill">Intro to Probability and Statistics</span>
+                  <span class="badge rounded-pill class-pill">Discrete Math</span>
+                  <span class="badge rounded-pill class-pill">Boolean Algebra and Logic</span>
+                </div>
                 <p class="d-block d-md-none"> 
                   <strong>University of California, Irvine</strong>
                   <br>
-                  <strong>B.S. Computer Science / Minor in Informatics</strong>
+                  <strong>B.S. Computer Science</strong>
+                  <br>
+                  <strong>Minor in Informatics</strong>
                   <br>
                   <strong>GPA: 3.81 (Dean's Honor List)</strong>
                   <br>
                   <br>
                   <strong>Relevant Coursework:</strong>
                 </p>
-                <span class="badge rounded-pill class-pill">Data Structures Implementation and Analysis</span>
-                <span class="badge rounded-pill class-pill">Design and Analysis of Algorithms</span>
-                <span class="badge rounded-pill class-pill">Intro to Artificial Intelligence</span>
-                <span class="badge rounded-pill class-pill">Machine Learning and Data Mining</span>
-                <span class="badge rounded-pill class-pill">Computational Photography and Vision</span>
-                <span class="badge rounded-pill class-pill">User Interaction Software</span>
-                <span class="badge rounded-pill class-pill">Intro to Data Management</span>
-                <span class="badge rounded-pill class-pill">Information Retrieval</span>
-                <span class="badge rounded-pill class-pill">Intro to Computer Organization</span>
-                <span class="badge rounded-pill class-pill">Principles of System Design</span>
-                <span class="badge rounded-pill class-pill">Formal Languages and Automata</span>
-                <span class="badge rounded-pill class-pill">Human Computer Interaction</span>
-                <span class="badge rounded-pill class-pill">Intro to Probability and Statistics</span>
-                <span class="badge rounded-pill class-pill">Discrete Math</span>
-                <span class="badge rounded-pill class-pill">Boolean Algebra and Logic</span>
+                <ul class="d-block d-md-none">
+                  <li>Data Structures Implementation and Analysis</li>
+                  <li>Design and Analysis of Algorithms</li>
+                  <li>Intro to Artificial Intelligence</li>
+                  <li>Machine Learning and Data Mining</li>
+                  <li>Computational Photography and Vision</li>
+                  <li>User Interaction Software</li>
+                  <li>Intro to Data Management</li>
+                  <li>Information Retrieval</li>
+                  <li>Intro to Computer Organization</li>
+                  <li>Principles of System Design</li>
+                  <li>Formal Languages and Automata</li>
+                  <li>Human Computer Interaction</li>
+                  <li>Intro to Probability and Statistics</li>
+                  <li>Discrete Math</li>
+                  <li>Boolean Algebra and Logic</li>
+                </ul>
               </div>
             </div>
           </div>
           <div style="padding-top: 5em;">
-            <h3 style="padding-bottom: 0.5em;">Campus Affiliations</h3>
+            <h3 id="campus-affiliations-header" style="padding-bottom: 0.5em;">Campus Affiliations</h3>
             <div class="row">
               <div class="col-md-1">
                 <img src="img/wics.png" alt="UC Irvine Emblem" class="d-none d-md-inline" style="width: 100%;">
@@ -250,6 +271,11 @@ EMAIL: crystml3@uci.edu
                   Node.js. Generally, this project is a webapp that integrates Kafka to process real-time events and displays 
                   them visually and audibly. 
                 </p>
+                <span class="badge rounded-pill skill-pill-green">Python</span>
+                <span class="badge rounded-pill skill-pill-blue">Cloudant</span>
+                <span class="badge rounded-pill skill-pill-pink">JavaScript</span>
+                <span class="badge rounded-pill skill-pill-green">Node.js</span>
+                <span class="badge rounded-pill skill-pill-blue">Kafka</span>
               </div>
             </div>
           </div>
@@ -268,8 +294,13 @@ EMAIL: crystml3@uci.edu
                   The main project that I worked on was building a webapp to automate the analysis of cyber threat intelligence 
                   reports. This tool takes in a report and parses the article into relevant sentences. Then, the relevant 
                   sentences are mapped to one of three hundred known cyber attack techniques using natural language processing. 
-                  The webapp was built using Python, JavaScript, HTML, CSS, Docker, and PostgreSQL. 
                 </p>
+                <span class="badge rounded-pill skill-pill-green">Python</span>
+                <span class="badge rounded-pill skill-pill-blue">JavaScript</span>
+                <span class="badge rounded-pill skill-pill-pink">HTML</span>
+                <span class="badge rounded-pill skill-pill-green">CSS</span>
+                <span class="badge rounded-pill skill-pill-blue">Docker</span>
+                <span class="badge rounded-pill skill-pill-pink">PostgreSQL</span>
               </div>
             </div>
             <div class="card">
@@ -280,13 +311,15 @@ EMAIL: crystml3@uci.edu
                 <em class="d-none d-md-inline">Irvine, CA<span style="float: right;">January 2020 - June 2020</span></em>
                 <em class="d-inline d-md-none">January 2020 - June 2020</em>
                 <p class="card-text mt-3">
-                  I was a Grader for UCI's Data Structures Implementation and Analysis Course in C++ course. 
-                  I graded five programming projects, ten written assignments, and two exams per quarter. 
-                  The grading criteria not only included correctness, but ensuring good code practice and quality (i.e., 
-                  separating code in a clean and understandable manner). I was responsible for around 300 student submissions 
-                  per week. I communicated with students through email regarding their assignment scores, regrade requests, and 
-                  clarification for point deductions. 
+                  I was a Grader for UCI's Data Structures Implementation and Analysis Course in C++. 
+                  I oversaw submissions from 300 students, which included five programming projects, ten written assignments, 
+                  and two exams per student. The grading criteria included correctness and ensuring good code practice and quality (i.e., 
+                  code modularity and appropriate variable naming). I ran Python scripts to automate grade distribution and communicated with 
+                  students through email about regrade requests. 
                 </p>
+                <span class="badge rounded-pill skill-pill-green">C++</span>
+                <span class="badge rounded-pill skill-pill-blue">Python</span>
+                <span class="badge rounded-pill skill-pill-pink">Microsoft Excel</span>
               </div>
             </div>
           </div>
@@ -305,8 +338,11 @@ EMAIL: crystml3@uci.edu
                   "Nash Score" of a pitcher based on his total pitch count, pitch frequencies, and pitch values. This is an 
                   adaptation of game theory's Nash equilibrium and measures a pitcher's efficiency based on their current 
                   repertoire and statistics. A pitcher can use this data to determine what pitches they can pitch more or less 
-                  to increase dominance. I used Octave, Python, and R to carry out this calculation. 
+                  to increase dominance.
                 </p>
+                <span class="badge rounded-pill skill-pill-green">Octave</span>
+                <span class="badge rounded-pill skill-pill-blue">R</span>
+                <span class="badge rounded-pill skill-pill-pink">Python</span>
               </div>
             </div>
             <div class="card">
@@ -324,6 +360,8 @@ EMAIL: crystml3@uci.edu
                   programming, I advised students on LEGO EV3 Robotics, specifically with building and coding the robots to have high 
                   performance in specific categories (e.g., speed and hill-climbing).
                 </p>
+                <span class="badge rounded-pill skill-pill-green">Scratch</span>
+                <span class="badge rounded-pill skill-pill-blue">LEGO EV3 Programming</span>
               </div>
             </div>
           </div>
@@ -331,7 +369,7 @@ EMAIL: crystml3@uci.edu
       </div>
     </div>
     <footer id="footer">
-      <span class="far fa-copyright"></span> 2021 Crystal Lee
+      <span class="far fa-copyright"></span> 2021 Crystal Lee <span style='font-size:1em;'>&#127861;</span>
     </footer>
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

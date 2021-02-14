@@ -122,9 +122,28 @@ pre {
 }
 
 .class-pill {
-    background-color: #C09891;
-    padding-right: 1em;
-    padding-left: 1em;
+    background-color: #d5b9b2;
+    font-size: 0.8em !important;
+    padding: 0.2em 1em 0.2em 1em !important; /* top right bottom left */
+    margin: 0.5em 0.5em 0 0;
+}
+
+.skill-pill-green {
+    background-color: #a5a58d;
+    padding: 0.2em 1em 0.2em 1em !important; /* top right bottom left */
+    margin: 0.5em 0.5em 0 0;
+}
+
+.skill-pill-blue {
+    background-color: #8e9aaf;
+    padding: 0.2em 1em 0.2em 1em !important; /* top right bottom left */
+    margin: 0.5em 0.5em 0 0;
+}
+
+.skill-pill-pink {
+    background-color: #c09891;
+    padding: 0.2em 1em 0.2em 1em !important; /* top right bottom left */
+    margin: 0.5em 0.5em 0 0;
 }
 
 #home {
@@ -205,3 +224,18 @@ pre {
 }
 
 .shadow { box-shadow: 0px 0px 10px rgba(0,0,0,.4)}
+
+
+@media (max-width: 768px) {
+    .section-header {
+        font-size: 200% !important;
+        text-align: center;
+    }
+    #aboutme-text {
+        margin-top: 1em !important;
+    }
+    #campus-affiliations-header {
+        font-size: 130%;
+        text-align: center;
+    }
+}
