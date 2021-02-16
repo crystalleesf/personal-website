@@ -152,10 +152,9 @@ pre {
 
 #footer {
     height: 50px;
-    /* background-color: #eddcd2; */
     background-color: #FFE8D6;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1em;
     bottom: 0;
     width: 100%;
  }
